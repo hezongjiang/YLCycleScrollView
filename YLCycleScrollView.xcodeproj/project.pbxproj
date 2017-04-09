@@ -1,0 +1,630 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		87AB13951E99CAA9001CC4B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87AB13941E99CAA9001CC4B7 /* AppDelegate.swift */; };
+		87AB13971E99CAA9001CC4B7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87AB13961E99CAA9001CC4B7 /* ViewController.swift */; };
+		87AB139A1E99CAA9001CC4B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87AB13981E99CAA9001CC4B7 /* Main.storyboard */; };
+		87AB139C1E99CAA9001CC4B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87AB139B1E99CAA9001CC4B7 /* Assets.xcassets */; };
+		87AB139F1E99CAA9001CC4B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87AB139D1E99CAA9001CC4B7 /* LaunchScreen.storyboard */; };
+		87AB13AA1E99CAA9001CC4B7 /* YLCycleScrollViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87AB13A91E99CAA9001CC4B7 /* YLCycleScrollViewTests.swift */; };
+		87AB13B51E99CAA9001CC4B7 /* YLCycleScrollViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87AB13B41E99CAA9001CC4B7 /* YLCycleScrollViewUITests.swift */; };
+		87AB13C61E99CB63001CC4B7 /* YLCycleImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87AB13C31E99CB63001CC4B7 /* YLCycleImageView.swift */; };
+		87AB13C71E99CB63001CC4B7 /* YLCycleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87AB13C41E99CB63001CC4B7 /* YLCycleModel.swift */; };
+		87AB13C81E99CB63001CC4B7 /* YLCycleScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87AB13C51E99CB63001CC4B7 /* YLCycleScrollView.swift */; };
+		FF149840E828F347FB04744E /* Pods_YLCycleScrollView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCF45C7D7FFF5F6B9E43FE10 /* Pods_YLCycleScrollView.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		87AB13A61E99CAA9001CC4B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 87AB13891E99CAA9001CC4B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 87AB13901E99CAA9001CC4B7;
+			remoteInfo = YLCycleScrollView;
+		};
+		87AB13B11E99CAA9001CC4B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 87AB13891E99CAA9001CC4B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 87AB13901E99CAA9001CC4B7;
+			remoteInfo = YLCycleScrollView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		87AB13911E99CAA9001CC4B7 /* YLCycleScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YLCycleScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		87AB13941E99CAA9001CC4B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		87AB13961E99CAA9001CC4B7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		87AB13991E99CAA9001CC4B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		87AB139B1E99CAA9001CC4B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		87AB139E1E99CAA9001CC4B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		87AB13A01E99CAA9001CC4B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87AB13A51E99CAA9001CC4B7 /* YLCycleScrollViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YLCycleScrollViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		87AB13A91E99CAA9001CC4B7 /* YLCycleScrollViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YLCycleScrollViewTests.swift; sourceTree = "<group>"; };
+		87AB13AB1E99CAA9001CC4B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87AB13B01E99CAA9001CC4B7 /* YLCycleScrollViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YLCycleScrollViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		87AB13B41E99CAA9001CC4B7 /* YLCycleScrollViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YLCycleScrollViewUITests.swift; sourceTree = "<group>"; };
+		87AB13B61E99CAA9001CC4B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87AB13C31E99CB63001CC4B7 /* YLCycleImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YLCycleImageView.swift; sourceTree = "<group>"; };
+		87AB13C41E99CB63001CC4B7 /* YLCycleModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YLCycleModel.swift; sourceTree = "<group>"; };
+		87AB13C51E99CB63001CC4B7 /* YLCycleScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YLCycleScrollView.swift; sourceTree = "<group>"; };
+		8CD6DEDBBB89116063DD9F39 /* Pods-YLCycleScrollView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YLCycleScrollView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YLCycleScrollView/Pods-YLCycleScrollView.debug.xcconfig"; sourceTree = "<group>"; };
+		B43DD08503838B04C667373A /* Pods-YLCycleScrollView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YLCycleScrollView.release.xcconfig"; path = "Pods/Target Support Files/Pods-YLCycleScrollView/Pods-YLCycleScrollView.release.xcconfig"; sourceTree = "<group>"; };
+		BCF45C7D7FFF5F6B9E43FE10 /* Pods_YLCycleScrollView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YLCycleScrollView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		87AB138E1E99CAA9001CC4B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF149840E828F347FB04744E /* Pods_YLCycleScrollView.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87AB13A21E99CAA9001CC4B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87AB13AD1E99CAA9001CC4B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		87AB13881E99CAA9001CC4B7 = {
+			isa = PBXGroup;
+			children = (
+				87AB13931E99CAA9001CC4B7 /* YLCycleScrollView */,
+				87AB13A81E99CAA9001CC4B7 /* YLCycleScrollViewTests */,
+				87AB13B31E99CAA9001CC4B7 /* YLCycleScrollViewUITests */,
+				87AB13921E99CAA9001CC4B7 /* Products */,
+				F1DE9066F34C6B5DDE176837 /* Pods */,
+				ADC650EE4F9D03806C7EC38A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		87AB13921E99CAA9001CC4B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				87AB13911E99CAA9001CC4B7 /* YLCycleScrollView.app */,
+				87AB13A51E99CAA9001CC4B7 /* YLCycleScrollViewTests.xctest */,
+				87AB13B01E99CAA9001CC4B7 /* YLCycleScrollViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		87AB13931E99CAA9001CC4B7 /* YLCycleScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				87AB13C21E99CB63001CC4B7 /* Source */,
+				87AB13941E99CAA9001CC4B7 /* AppDelegate.swift */,
+				87AB13961E99CAA9001CC4B7 /* ViewController.swift */,
+				87AB13981E99CAA9001CC4B7 /* Main.storyboard */,
+				87AB139B1E99CAA9001CC4B7 /* Assets.xcassets */,
+				87AB139D1E99CAA9001CC4B7 /* LaunchScreen.storyboard */,
+				87AB13A01E99CAA9001CC4B7 /* Info.plist */,
+			);
+			path = YLCycleScrollView;
+			sourceTree = "<group>";
+		};
+		87AB13A81E99CAA9001CC4B7 /* YLCycleScrollViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				87AB13A91E99CAA9001CC4B7 /* YLCycleScrollViewTests.swift */,
+				87AB13AB1E99CAA9001CC4B7 /* Info.plist */,
+			);
+			path = YLCycleScrollViewTests;
+			sourceTree = "<group>";
+		};
+		87AB13B31E99CAA9001CC4B7 /* YLCycleScrollViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				87AB13B41E99CAA9001CC4B7 /* YLCycleScrollViewUITests.swift */,
+				87AB13B61E99CAA9001CC4B7 /* Info.plist */,
+			);
+			path = YLCycleScrollViewUITests;
+			sourceTree = "<group>";
+		};
+		87AB13C21E99CB63001CC4B7 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				87AB13C31E99CB63001CC4B7 /* YLCycleImageView.swift */,
+				87AB13C41E99CB63001CC4B7 /* YLCycleModel.swift */,
+				87AB13C51E99CB63001CC4B7 /* YLCycleScrollView.swift */,
+			);
+			path = Source;
+			sourceTree = SOURCE_ROOT;
+		};
+		ADC650EE4F9D03806C7EC38A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BCF45C7D7FFF5F6B9E43FE10 /* Pods_YLCycleScrollView.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F1DE9066F34C6B5DDE176837 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8CD6DEDBBB89116063DD9F39 /* Pods-YLCycleScrollView.debug.xcconfig */,
+				B43DD08503838B04C667373A /* Pods-YLCycleScrollView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		87AB13901E99CAA9001CC4B7 /* YLCycleScrollView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87AB13B91E99CAA9001CC4B7 /* Build configuration list for PBXNativeTarget "YLCycleScrollView" */;
+			buildPhases = (
+				266ED1322BA48A5A03AB9BE9 /* [CP] Check Pods Manifest.lock */,
+				87AB138D1E99CAA9001CC4B7 /* Sources */,
+				87AB138E1E99CAA9001CC4B7 /* Frameworks */,
+				87AB138F1E99CAA9001CC4B7 /* Resources */,
+				D3F1EF0EDA051CD045DE1E8A /* [CP] Embed Pods Frameworks */,
+				1E6C144A94F45F0F0A9C67BE /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YLCycleScrollView;
+			productName = YLCycleScrollView;
+			productReference = 87AB13911E99CAA9001CC4B7 /* YLCycleScrollView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		87AB13A41E99CAA9001CC4B7 /* YLCycleScrollViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87AB13BC1E99CAA9001CC4B7 /* Build configuration list for PBXNativeTarget "YLCycleScrollViewTests" */;
+			buildPhases = (
+				87AB13A11E99CAA9001CC4B7 /* Sources */,
+				87AB13A21E99CAA9001CC4B7 /* Frameworks */,
+				87AB13A31E99CAA9001CC4B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				87AB13A71E99CAA9001CC4B7 /* PBXTargetDependency */,
+			);
+			name = YLCycleScrollViewTests;
+			productName = YLCycleScrollViewTests;
+			productReference = 87AB13A51E99CAA9001CC4B7 /* YLCycleScrollViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		87AB13AF1E99CAA9001CC4B7 /* YLCycleScrollViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87AB13BF1E99CAA9001CC4B7 /* Build configuration list for PBXNativeTarget "YLCycleScrollViewUITests" */;
+			buildPhases = (
+				87AB13AC1E99CAA9001CC4B7 /* Sources */,
+				87AB13AD1E99CAA9001CC4B7 /* Frameworks */,
+				87AB13AE1E99CAA9001CC4B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				87AB13B21E99CAA9001CC4B7 /* PBXTargetDependency */,
+			);
+			name = YLCycleScrollViewUITests;
+			productName = YLCycleScrollViewUITests;
+			productReference = 87AB13B01E99CAA9001CC4B7 /* YLCycleScrollViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		87AB13891E99CAA9001CC4B7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = he;
+				TargetAttributes = {
+					87AB13901E99CAA9001CC4B7 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+					};
+					87AB13A41E99CAA9001CC4B7 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 87AB13901E99CAA9001CC4B7;
+					};
+					87AB13AF1E99CAA9001CC4B7 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 87AB13901E99CAA9001CC4B7;
+					};
+				};
+			};
+			buildConfigurationList = 87AB138C1E99CAA9001CC4B7 /* Build configuration list for PBXProject "YLCycleScrollView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 87AB13881E99CAA9001CC4B7;
+			productRefGroup = 87AB13921E99CAA9001CC4B7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				87AB13901E99CAA9001CC4B7 /* YLCycleScrollView */,
+				87AB13A41E99CAA9001CC4B7 /* YLCycleScrollViewTests */,
+				87AB13AF1E99CAA9001CC4B7 /* YLCycleScrollViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		87AB138F1E99CAA9001CC4B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87AB139F1E99CAA9001CC4B7 /* LaunchScreen.storyboard in Resources */,
+				87AB139C1E99CAA9001CC4B7 /* Assets.xcassets in Resources */,
+				87AB139A1E99CAA9001CC4B7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87AB13A31E99CAA9001CC4B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87AB13AE1E99CAA9001CC4B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1E6C144A94F45F0F0A9C67BE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YLCycleScrollView/Pods-YLCycleScrollView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		266ED1322BA48A5A03AB9BE9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D3F1EF0EDA051CD045DE1E8A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YLCycleScrollView/Pods-YLCycleScrollView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		87AB138D1E99CAA9001CC4B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87AB13C61E99CB63001CC4B7 /* YLCycleImageView.swift in Sources */,
+				87AB13971E99CAA9001CC4B7 /* ViewController.swift in Sources */,
+				87AB13951E99CAA9001CC4B7 /* AppDelegate.swift in Sources */,
+				87AB13C81E99CB63001CC4B7 /* YLCycleScrollView.swift in Sources */,
+				87AB13C71E99CB63001CC4B7 /* YLCycleModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87AB13A11E99CAA9001CC4B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87AB13AA1E99CAA9001CC4B7 /* YLCycleScrollViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87AB13AC1E99CAA9001CC4B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87AB13B51E99CAA9001CC4B7 /* YLCycleScrollViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		87AB13A71E99CAA9001CC4B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 87AB13901E99CAA9001CC4B7 /* YLCycleScrollView */;
+			targetProxy = 87AB13A61E99CAA9001CC4B7 /* PBXContainerItemProxy */;
+		};
+		87AB13B21E99CAA9001CC4B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 87AB13901E99CAA9001CC4B7 /* YLCycleScrollView */;
+			targetProxy = 87AB13B11E99CAA9001CC4B7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		87AB13981E99CAA9001CC4B7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87AB13991E99CAA9001CC4B7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		87AB139D1E99CAA9001CC4B7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87AB139E1E99CAA9001CC4B7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		87AB13B71E99CAA9001CC4B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		87AB13B81E99CAA9001CC4B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		87AB13BA1E99CAA9001CC4B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CD6DEDBBB89116063DD9F39 /* Pods-YLCycleScrollView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YLCycleScrollView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZJHe.YLCycleScrollView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		87AB13BB1E99CAA9001CC4B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B43DD08503838B04C667373A /* Pods-YLCycleScrollView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YLCycleScrollView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZJHe.YLCycleScrollView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		87AB13BD1E99CAA9001CC4B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YLCycleScrollViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZJHe.YLCycleScrollViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YLCycleScrollView.app/YLCycleScrollView";
+			};
+			name = Debug;
+		};
+		87AB13BE1E99CAA9001CC4B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YLCycleScrollViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZJHe.YLCycleScrollViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YLCycleScrollView.app/YLCycleScrollView";
+			};
+			name = Release;
+		};
+		87AB13C01E99CAA9001CC4B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = YLCycleScrollViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZJHe.YLCycleScrollViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = YLCycleScrollView;
+			};
+			name = Debug;
+		};
+		87AB13C11E99CAA9001CC4B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = YLCycleScrollViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZJHe.YLCycleScrollViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = YLCycleScrollView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		87AB138C1E99CAA9001CC4B7 /* Build configuration list for PBXProject "YLCycleScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87AB13B71E99CAA9001CC4B7 /* Debug */,
+				87AB13B81E99CAA9001CC4B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87AB13B91E99CAA9001CC4B7 /* Build configuration list for PBXNativeTarget "YLCycleScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87AB13BA1E99CAA9001CC4B7 /* Debug */,
+				87AB13BB1E99CAA9001CC4B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87AB13BC1E99CAA9001CC4B7 /* Build configuration list for PBXNativeTarget "YLCycleScrollViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87AB13BD1E99CAA9001CC4B7 /* Debug */,
+				87AB13BE1E99CAA9001CC4B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87AB13BF1E99CAA9001CC4B7 /* Build configuration list for PBXNativeTarget "YLCycleScrollViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87AB13C01E99CAA9001CC4B7 /* Debug */,
+				87AB13C11E99CAA9001CC4B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 87AB13891E99CAA9001CC4B7 /* Project object */;
+}
