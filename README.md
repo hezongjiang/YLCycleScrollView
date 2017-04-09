@@ -1,6 +1,6 @@
 # YLCycleScrollView
 
-![image](https://github.com/Hearsayer/YLCycleScrollView/blob/master/CycleScrollView.gif)
+![image](https://github.com/Hearsayer/YLCycleScrollView/blob/master/YLCycleScrollView.gif)
 
 
 YLCycleScrollView is a delightful scrollview library for iOS, it's base on UIScrollView, use three UIImageView to achieve the effect of rolling cycle no matter how many pictures.
