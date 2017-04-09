@@ -9,7 +9,7 @@
 import UIKit
 import Kingfisher
 
-@objc protocol cycleScrollViewDelegate {
+@objc public protocol CycleScrollViewDelegate {
     
     func cycleScrollView(_ YLCycleScrollView: YLCycleScrollView, didTap index: Int, data: YLCycleModel)
 }
@@ -27,7 +27,7 @@ let indicatorHeight: CGFloat = 30
 
 public class YLCycleScrollView: UIView {
     /// 代理
-    weak var delegate: cycleScrollViewDelegate?
+    public weak var delegate: CycleScrollViewDelegate?
     
     /// 图片内容模式
     public var imageContentMode: UIViewContentMode = .scaleToFill {

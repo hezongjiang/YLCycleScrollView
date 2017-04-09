@@ -37,7 +37,7 @@ class ViewController: UIViewController {
     }
 }
 
-extension ViewController: cycleScrollViewDelegate {
+extension ViewController: CycleScrollViewDelegate {
     
     func cycleScrollView(_ YLCycleScrollView: YLCycleScrollView, didTap index: Int, data: YLCycleModel) {
         print(data)
