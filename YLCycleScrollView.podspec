@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
     s.name         = "YLCycleScrollView"
-    s.version      = "1.2.2"
+    s.version      = "1.2.3"
     s.summary      = "无限滚动视图"
     s.homepage     = "https://github.com/Hearsayer/YLCycleScrollView"
     s.license      = "MIT"

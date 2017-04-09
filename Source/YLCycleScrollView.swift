@@ -11,7 +11,7 @@ import Kingfisher
 
 @objc public protocol CycleScrollViewDelegate {
     
-    func cycleScrollView(_ YLCycleScrollView: YLCycleScrollView, didTap index: Int, data: YLCycleModel)
+    func cycleScrollView(_ cycleScrollView: YLCycleScrollView, didTap index: Int, data: YLCycleModel)
 }
 
 public enum IndicatiorPositionType {
